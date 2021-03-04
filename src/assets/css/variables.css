@@ -7,6 +7,7 @@
   --white: hsl(0, 0%, 100%);
   --mainColorNormal: hsl(33, 100%, 48%);
   --mainColorLight: hsla(33.1, 100%, 58%, 0.68);
+  --secondaryColorNormal: hsl(179, 46%, 28%);
 
   /* SPACING */
   --spacing: 4px;

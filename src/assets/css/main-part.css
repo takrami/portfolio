@@ -9,6 +9,10 @@
   padding: calc(var(--spacing) * 10);
 }
 
+.tech-details {
+  padding-top: calc(var(--spacing) * 8);
+}
+
 .title {
   display: flex;
   justify-content: center;
