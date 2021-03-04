@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primaryFont);
+  font-weight: 400;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.main-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 calc(var(--spacing) * 4);
+}
+
+p {
+  line-height: calc(var(--spacing) * 6);
+}
+
+.res-img {
+  width: 100%;
+}

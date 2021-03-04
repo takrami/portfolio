@@ -1,0 +1,13 @@
+:root {
+  /* FONTS */
+  --primaryFont: "Roboto", sans-serif;
+
+  /* COLORS */
+  --primaryBackgroundColor: hsl(0, 0%, 96%);
+  --white: hsl(0, 0%, 100%);
+  --mainColorNormal: hsl(33, 100%, 48%);
+  --mainColorLight: hsla(33.1, 100%, 58%, 0.68);
+
+  /* SPACING */
+  --spacing: 4px;
+}
