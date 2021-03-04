@@ -138,3 +138,29 @@
   padding-bottom: calc(var(--spacing) * 2);
 }
 /* END OF SKILL PART STYLE  */
+
+/* START FOR MORE PART STYLE */
+.for-more {
+  padding: calc(var(--spacing) * 10);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: calc(var(--spacing) * 10);
+  padding: calc(var(--spacing) * 10);
+}
+
+.social-icon {
+  font-size: 2em;
+  color: var(--mainColorNormal);
+  border: 2px solid var(--mainColorNormal);
+  border-radius: 50%;
+  padding: calc(var(--spacing) * 4) calc(var(--spacing) * 4.5);
+}
+
+.social-text {
+  color: var(--mainColorNormal);
+}
+
+/* END OF FOR MORE PART STYLE */
