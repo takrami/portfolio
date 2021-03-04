@@ -82,8 +82,41 @@
 /* START OTHER PROJECT PART */
 .title-text-other {
   color: var(--mainColorNormal);
-  display: inline-block;
-  padding: var(--spacing) calc(var(--spacing) * 3);
-  border-radius: var(--spacing);
+}
+
+.other-projects-list {
+  padding-top: calc(var(--spacing) * 8);
+}
+
+.other-projects-item {
+  padding-bottom: calc(var(--spacing) * 4);
+}
+
+.title-cnt {
+  display: flex;
+  margin-bottom: calc(var(--spacing) * 2);
+}
+
+.title-other {
+  color: var(--mainColorNormal);
+  border-bottom: 1px solid var(--mainColorNormal);
+}
+
+.description-other {
+  border-bottom: 1px solid black;
+}
+
+.icon-other {
+  color: var(--mainColorNormal);
+  border-bottom: 1px solid var(--mainColorNormal);
+  display: flex;
+  align-items: center;
 }
 /* END OF OTHER PROJECT PART */
+
+.time {
+  color: var(--mainColorNormal);
+  font-weight: 500;
+  padding: calc(var(--spacing) * 2) 0;
+  display: inline-block;
+}
