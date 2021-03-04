@@ -120,3 +120,21 @@
   padding: calc(var(--spacing) * 2) 0;
   display: inline-block;
 }
+
+/* START SKILL PART STYLE */
+.skills-cnt {
+  display: flex;
+  justify-content: space-between;
+  padding: calc(var(--spacing) * 10) 0;
+}
+
+.skills-list li {
+  padding-bottom: var(--spacing);
+}
+
+.skills-title {
+  color: var(--mainColorNormal);
+  font-size: 1em;
+  padding-bottom: calc(var(--spacing) * 2);
+}
+/* END OF SKILL PART STYLE  */
