@@ -9,6 +9,7 @@
 .info-title {
   font-size: 2em;
   padding-top: calc(var(--spacing) * 4);
+  line-height: calc(var(--spacing) * 15);
 }
 
 @media only screen and (min-width: 600px) {
@@ -30,6 +31,6 @@
     position: absolute;
     top: 40%;
     left: 10%;
-    color: var(--white);
+    color: var(--mainColorNormal);
   }
 }
