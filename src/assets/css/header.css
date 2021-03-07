@@ -4,7 +4,6 @@
 
 .main-header {
   text-align: center;
-  padding-bottom: calc(var(--spacing) * 10);
 }
 
 .info-title {
